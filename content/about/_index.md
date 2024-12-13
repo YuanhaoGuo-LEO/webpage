@@ -44,12 +44,12 @@ $$
 
 $$
 \begin{aligned}
-&\bullet ~~\textbf{\footnotesize{Nov. 2022 - Present:}} ~~& \text{\footnotesize{Research Institute of Highway Ministry of Transport}} \\\\\ 
-&  & \text{\footnotesize{RoadMaint Co. Ltd., Chief AI Scientist, Senior Engineer}} \\\\\
-&\bullet ~~\textbf{\footnotesize{Jun. 2019 - Oct. 2022:}} ~~& \text{\footnotesize{Institute of Automation, Chinese Academy of Sciences, Assistant Professor}} \\\\\\
-& & \text{\footnotesize{University of Chinese Academy of Sciences, Teaching Assistant}} \\\\\
-&\bullet ~~\textbf{\footnotesize{Jul. 2018 - May 2019:}} ~~& \text{\footnotesize{DIDIChuXing AILabs, Senior Computer Vision Engineer}}\\\\\\
-&\bullet ~~\textbf{\footnotesize{Oct. 2017 - Jun. 2018:}} ~~& \text{\footnotesize{MapScape (Eindhoven, NL), Computer Vision Engineer}} \\\\\
+\bullet ~~\textbf{\footnotesize{Nov. 2022 - Present:}} ~~~~& \text{\footnotesize{Research Institute of Highway Ministry of Transport}} \\\\\ 
+  & \text{\footnotesize{RoadMaint Co. Ltd., Chief AI Scientist, Senior Engineer}} \\\\\
+\bullet ~~\textbf{\footnotesize{Jun. 2019 - Oct. 2022:}} ~~& \text{\footnotesize{Institute of Automation, Chinese Academy of Sciences, Assistant Professor}} \\\\\\
+ & \text{\footnotesize{University of Chinese Academy of Sciences, Teaching Assistant}} \\\\\
+\bullet ~~\textbf{\footnotesize{Jul. 2018 - May 2019:}} ~~& \text{\footnotesize{DIDIChuXing AILabs, Senior Computer Vision Engineer}}\\\\\\
+\bullet ~~\textbf{\footnotesize{Oct. 2017 - Jun. 2018:}} ~~& \text{\footnotesize{MapScape (Eindhoven, NL), Computer Vision Engineer}} \\\\\
 \end{aligned}
 $$
 
