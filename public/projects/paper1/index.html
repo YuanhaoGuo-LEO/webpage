@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/hugo-website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-website/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>I. Microscope images processing and understanding by computer vision | Yuanhao Guo</title>
+<meta name="keywords" content="Microscope Images Processing &amp; Understanding">
+<meta name="description" content="In this projects we develop automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images.">
+<meta name="author" content="Yuanhao Guo">
+<link rel="canonical" href="http://localhost:1313/hugo-website/projects/paper1/">
+<link crossorigin="anonymous" href="/hugo-website/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/hugo-website/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/hugo-website/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/hugo-website/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/hugo-website/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/hugo-website/projects/paper1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="I. Microscope images processing and understanding by computer vision" />
+<meta property="og:description" content="In this projects we develop automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/hugo-website/projects/paper1/" />
+<meta property="og:image" content="http://localhost:1313/hugo-website/figure1.png" /><meta property="article:section" content="projects" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/hugo-website/figure1.png" />
+<meta name="twitter:title" content="I. Microscope images processing and understanding by computer vision"/>
+<meta name="twitter:description" content="In this projects we develop automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "http://localhost:1313/hugo-website/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "I. Microscope images processing and understanding by computer vision",
+      "item": "http://localhost:1313/hugo-website/projects/paper1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "I. Microscope images processing and understanding by computer vision",
+  "name": "I. Microscope images processing and understanding by computer vision",
+  "description": "In this projects we develop automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images.",
+  "keywords": [
+    "Microscope Images Processing \u0026 Understanding"
+  ],
+  "articleBody": " 1. Research goal\nDeveloping automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images. 2. Methods\nImage segmentation: Precisely extracting the intricate subcellular structures\n(1) Dataset preparation: Collected high-resolution fluorescent microscope images and manually annotated the masks of essential organelles, including endoplasmic reticulum (ER), mitochondria (MITO), lysosome (LYSO) and nucleus (NUC).\n(2) To segment these intricate structures, novel deep neural networks (multi-resolution encoder, hierarchical fusion loss) were developed, and novel training strategies (few-shot and self-supervised learning) were exploited for reducing training costs.\nFeature engineering: Characterizing morphologies and interactive behaviors of organelles\n(1) Dataset preparation: Constructed control group that contained wildtype cells and experimental groups that contained cells treated by different types of drugs. Acquired multi-channel fluorescent microscope images synchronously for ER and MITO of the cells.\n(2) Based on the segmentation results, the static and dynamic behaviors (morphological features, network attributes, contacts, time-series features) of ER and MITO can be correlated, further revealing their interactive mechanism.\n(3) By integrating the segmentation results of nucleus and ER, cell center and border can be approximated. The spatial distribution of lysosomes can then be obtained, which provided evaluation metrics for drug screening and related biological mechanism.\nPhenotype classification: Implicitly representation of phenotype variations\n(1) Dataset preparation: Constructed experimental groups by treating cells with different types of drugs to induce ER stress at different levels, which presented different amount of ER whorls. Then acquired their high-resolution fluorescent microscope images to construct the dataset.\n(2) Trained a Mask R-CNN to detect and crop out each cell region from a full view. Trained a deep classification model to separate normal and abnormal ER structures. Utilized Grad-CAM to identify the ER whorls in a weakly-supervised manner.\n(3) Counted the cells in a well that present ER stress at different levels. The distribution of the cells from various wells treated by different types of drugs was used to interpret the functions of these drugs.\nStereo vision: 3D reconstruction from axial-view microscope imaging system\n(1) Dataset preparation: The imaging system was constructed by fixing the specimen in a tubule, the axial-direction of which was positioned perpendicularly to the camera. By rotating the specimen around the tubule axle, its profiles from all directions can be viewed and imaged.\n(2) Silhouette-based method and probabilistic model were developed for calibrating the camera system, and multi-view 3D reconstruction methods were proposed to recover the 3D shapes of the specimen from a series of 2D images.\n(3) By acquiring bright-field and fluorescence images of the specimen, the 3D reconstruction of its overall shape and its inner structures can be synchronized and aligned. The results can support the studies of toxicology and pharmacokinetics, in which the 3D inner structures tracked the drug’s function in an individual-dependent reference (the overall shape of the specimen).\n(4) Some interesting demos can be found here: demos\n",
+  "wordCount" : "482",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/hugo-website/figure1.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Yuanhao Guo"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/hugo-website/projects/paper1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yuanhao Guo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/hugo-website/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/hugo-website/" accesskey="h" title="Yuanhao Guo (郭远昊)">
+                <img src="http://localhost:1313/hugo-website/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Yuanhao Guo (郭远昊)</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/hugo-website/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-website/news/" title="News">
+                    <span>News</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-website/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-website/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-website/patents/" title="Patents">
+                    <span>Patents</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      I. Microscope images processing and understanding by computer vision
+    </h1>
+    <div class="post-meta">Yuanhao Guo&nbsp;&middot;&nbsp;<a href="https://github.com/pmichaillat/hugo-website" rel="noopener noreferrer" target="_blank">Project I</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<p><em><strong>1. Research goal</strong></em></p>
+<div style="text-align: justify;">
+Developing automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images.
+</div>
+<br>
+<p><em><strong>2. Methods</strong></em></p>
+<ul>
+<li>
+<p><u><strong>Image segmentation</strong>: Precisely extracting the intricate subcellular structures</u></p>
+<p>(1) <em>Dataset preparation</em>: Collected high-resolution fluorescent microscope images and manually annotated the masks of essential organelles, including endoplasmic reticulum (ER), mitochondria (MITO), lysosome (LYSO) and nucleus (NUC).</p>
+<p>(2) To segment these intricate structures, novel deep neural networks (multi-resolution encoder, hierarchical fusion loss) were developed, and novel training strategies (few-shot and self-supervised learning) were exploited for reducing training costs.</p>
+</li>
+</ul>
+<hr>
+<ul>
+<li>
+<p><u><strong>Feature engineering</strong>: Characterizing morphologies and interactive behaviors of organelles</u></p>
+<p>(1) <em>Dataset preparation</em>: Constructed control group that contained wildtype cells and experimental groups that contained cells treated by different types of drugs. Acquired multi-channel fluorescent microscope images synchronously for ER and MITO of the cells.</p>
+<p>(2) Based on the segmentation results, the static and dynamic behaviors (morphological features, network attributes, contacts, time-series features) of ER and MITO can be correlated, further revealing their interactive mechanism.</p>
+<p>(3) By integrating the segmentation results of nucleus and ER, cell center and border can be approximated. The spatial distribution of lysosomes can then be obtained, which provided evaluation metrics for drug screening and related biological mechanism.</p>
+</li>
+</ul>
+<div style="text-align: center;">
+<video src="er_graph.mp4" autoplay="false" controls="controls" width="640" height="320"></video>
+</div>
+<br>
+<br>
+<div style="text-align: center;">
+<video src="wbp.mp4" autoplay="false" controls="controls" width="640" height="320"></video>
+</div>
+<hr>
+<ul>
+<li>
+<p><u><strong>Phenotype classification</strong>: Implicitly representation of phenotype variations</u></p>
+<p>(1) <em>Dataset preparation</em>: Constructed experimental groups by treating cells with different types of drugs to induce ER stress at different levels, which presented different amount of ER whorls. Then acquired their high-resolution fluorescent microscope images to construct the dataset.</p>
+<p>(2) Trained a Mask R-CNN to detect and crop out each cell region from a full view. Trained a deep classification model to separate normal and abnormal ER structures. Utilized Grad-CAM to identify the ER whorls in a weakly-supervised manner.</p>
+<p>(3) Counted the cells in a well that present ER stress at different levels. The distribution of the cells from various wells treated by different types of drugs was used to interpret the functions of these drugs.</p>
+</li>
+</ul>
+<div align="center">
+<img src="erstress.jpg" alt="Morphological analysis of ER stress for drug screening" width="600" height="600">
+</div>
+<ul>
+<li>
+<p><u><strong>Stereo vision</strong>: 3D reconstruction from axial-view microscope imaging system</u></p>
+<p>(1) <em>Dataset preparation</em>: The imaging system was constructed by fixing the specimen in a tubule, the axial-direction of which was positioned perpendicularly to the camera. By rotating the specimen around the tubule axle, its profiles from all directions can be viewed and imaged.</p>
+<p>(2) Silhouette-based method and probabilistic model were developed for calibrating the camera system, and multi-view 3D reconstruction methods were proposed to recover the 3D shapes of the specimen from a series of 2D images.</p>
+<p>(3) By acquiring bright-field and fluorescence images of the specimen, the 3D reconstruction of its overall shape and its inner structures can be synchronized and aligned. The results can support the studies of toxicology and pharmacokinetics, in which the 3D inner structures tracked the drug’s function in an individual-dependent reference (the overall shape of the specimen).</p>
+<p>(4) Some interesting demos can be found here: <a href="https://liacs.leidenuniv.nl/~guoy3/#Database" target="_blank">demos</a></p>
+</li>
+</ul>
+<div style="text-align: center;">
+<video src="zebrafish_3d_liver.mp4" autoplay="false" controls="controls" width="640" height="320"></video>
+</div>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/hugo-website/tags/microscope-images-processing--understanding/">Microscope Images Processing &amp; Understanding</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://localhost:1313/hugo-website/">Yuanhao Guo</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

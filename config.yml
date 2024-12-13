@@ -1,0 +1,102 @@
+baseURL: "https://pascalmichaillat.org/hugo-website/" 
+title: Yuanhao Guo
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: About
+          url: about/
+          weight: 1
+        - name: News
+          url: news/
+          weight: 2
+        - name: Projects
+          url: projects/
+          weight: 3
+        - name: Publications
+          url: publications/
+          weight: 4
+        - name: Patents
+          url: patents/
+          weight: 5
+
+params:
+    description: "Dr. Yuanhao Guo"
+    author: Yuanhao Guo
+    DateFormat: "December 2024"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["about","news","projects","publications","patents"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Dr. Yuanhao Guo (郭远昊 博士)
+          subtitle: "I am currently leading the Intelligent Detection Team and holding the position of Chief AI Scientist of RoadMaint Co. Ltd. affiliated at Research Institute of Highway Ministry of Transport. I am also serving as a Corporate-based Master's Supervisor at International School of Information Science and Engineering, Dalian University of Technology. My research interests are developing and applying frontier techniques like **deep learning** and **computer vision** models to solve interdisciplinary problems, including **biomedical image processing**, **intelligent road maintenance**, and **autonomous driving**."
+          imageUrl: "yuanhao.jpg"
+          imageWidth: 160
+          imageHeight: 240
+          buttons:
+            - name: About
+              url: about/
+            - name: News
+              url: news/
+            - name: Projects
+              url: projects/
+            - name: Publications
+              url: publications/
+            - name: Patents
+              url: patents/
+
+    socialIcons:
+        - name: Email
+          url: yuanhaoguo@hotmail.com
+        - name: Google Scholar
+          url: https://scholar.google.nl/citations?user=UlLyPiUAAAAJ&hl=en
+        - name: ResearchGate
+          url: https://www.researchgate.net/profile/Yuanhao-Guo
+        - name: leiden
+          url: https://liacs.leidenuniv.nl/~guoy3/
+
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Yuanhao Guo (郭远昊)"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

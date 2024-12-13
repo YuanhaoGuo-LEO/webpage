@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/hugo-website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-website/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>III. Computer vision methods for general-purpose | Yuanhao Guo</title>
+<meta name="keywords" content="General-purpose Computer Vision Methods">
+<meta name="description" content="In this projects we develop automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images.">
+<meta name="author" content="Yuanhao Guo">
+<link rel="canonical" href="http://localhost:1313/hugo-website/projects/paper3/">
+<link crossorigin="anonymous" href="/hugo-website/assets/css/stylesheet.e690afcd5c523330d5c8b4d746eb158361600a015e99518d4d246a6ccab0cc19.css" integrity="sha256-5pCvzVxSMzDVyLTXRusVg2FgCgFemVGNTSRqbMqwzBk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/hugo-website/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/hugo-website/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/hugo-website/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/hugo-website/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/hugo-website/projects/paper3/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="III. Computer vision methods for general-purpose" />
+<meta property="og:description" content="In this projects we develop automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/hugo-website/projects/paper3/" />
+<meta property="og:image" content="http://localhost:1313/hugo-website/working%20pipeline.png" /><meta property="article:section" content="projects" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/hugo-website/working%20pipeline.png" />
+<meta name="twitter:title" content="III. Computer vision methods for general-purpose"/>
+<meta name="twitter:description" content="In this projects we develop automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "http://localhost:1313/hugo-website/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "III. Computer vision methods for general-purpose",
+      "item": "http://localhost:1313/hugo-website/projects/paper3/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "III. Computer vision methods for general-purpose",
+  "name": "III. Computer vision methods for general-purpose",
+  "description": "In this projects we develop automated pipeline based on deep learning and computer vision models for characterizing static and dynamic behaviors of multi-scale phenotypes from bright-field and fluorescent microscope images.",
+  "keywords": [
+    "General-purpose Computer Vision Methods"
+  ],
+  "articleBody": " Research goal\nDeveloping novel deep learning models and computer vision methods to solve practical problems in industry. Methods \u0026 Applications\nPavement distress detection system\n(1) Accurate detection of pavement distress provides a metric to assess the condition of roadway. A grid segmentation method was developed, which uses a shared backbone network and a multi-branch output layer to recognize multiple types of pavement distresses, like crack, alligator crack, sealed crack, etc.\n(2) Developed a novel network architecture for detecting different types of line segments on concrete pavement, like joints, sealed joints and road boundaries. The network consisted of a backbone network for feature extraction, and a dual-prediction head to localize/classify the line segment. A novel dual-attention module was proposed to handle the semantic similarity among different types of line segments.\n(3) A joint detection network was proposed for identifying multi-scale objects on pavements. An encoder network detected pavement distresses represented by grid (sealed crack, crack, pothole), and a decoder with a feature fusion module detected objects represented at pixel level (joints). A cross-attention module bridged the multi-scale features from these two types of objects.\n(4) A road fast survey device was developed. An industrial camera and a GPS module were mounted on top of the vehicle to capture front-view images of the road and record the location. Latest YOLO models were adapted and deployed in an AI edge device to detect pavement distresses from images in real-time.\nSemi-supervised object detection\n(1) Proposed a novel semi-supervised object detection method based on temporal model ensembling, which used a large number of unlabelled data to improve the performance of an object detector.\n(2) This method employed the teacher-student framework originated from knowledge distillation. The prediction results of unlabelled data were obtained by integrating the detection results of teacher network from previous training steps, which were used to train the student network in an unsupervised manner.\n",
+  "wordCount" : "311",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/hugo-website/working%20pipeline.png","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Yuanhao Guo"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/hugo-website/projects/paper3/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yuanhao Guo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/hugo-website/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/hugo-website/" accesskey="h" title="Yuanhao Guo (郭远昊)">
+                <img src="http://localhost:1313/hugo-website/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Yuanhao Guo (郭远昊)</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/hugo-website/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-website/news/" title="News">
+                    <span>News</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-website/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-website/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-website/patents/" title="Patents">
+                    <span>Patents</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      III. Computer vision methods for general-purpose
+    </h1>
+    <div class="post-meta">Yuanhao Guo&nbsp;&middot;&nbsp;<a href="https://github.com/pmichaillat/hugo-website" rel="noopener noreferrer" target="_blank">Project III</a>
+
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h4 id="heading"></h4>
+<p><em><strong>Research goal</strong></em></p>
+<div style="text-align: justify;">
+Developing novel deep learning models and computer vision methods to solve practical problems in industry.
+</div>
+<br>
+<p><em><strong>Methods &amp; Applications</strong></em></p>
+<ul>
+<li>
+<p><u>Pavement distress detection system</u></p>
+<p>(1) Accurate detection of pavement distress provides a metric to assess the condition of roadway. A grid segmentation method was developed, which uses a shared backbone network and a multi-branch output layer to recognize multiple types of pavement distresses, like crack, alligator crack, sealed crack, etc.</p>
+<p>(2) Developed a novel network architecture for detecting different types of line segments on concrete pavement, like joints, sealed joints and road boundaries. The network consisted of a backbone network for feature extraction, and a dual-prediction head to localize/classify the line segment. A novel dual-attention module was proposed to handle the semantic similarity among different types of line segments.</p>
+<p>(3) A joint detection network was proposed for identifying multi-scale objects on pavements. An encoder network detected pavement distresses represented by grid (sealed crack, crack, pothole), and a decoder with a feature fusion module detected objects represented at pixel level (joints). A cross-attention module bridged the multi-scale features from these two types of objects.</p>
+<p>(4) A road fast survey device was developed. An industrial camera and a GPS module were mounted on top of the vehicle to capture front-view images of the road and record the location. Latest YOLO models were adapted and deployed in an AI edge device to detect pavement distresses from images in real-time.</p>
+</li>
+</ul>
+<div align=center>
+<img src="working pipeline.png" alt="3D celeral artery model" width="800" height="200"></img>
+</div>
+<div style="text-align: center;">
+<video src="distress_det.mp4" autoplay="true" controls="controls" width="640" height="320"></video>
+</div>
+<div align=center>
+<img src="survey.gif" alt="3D celeral artery model" width="640" height="450">
+</img>
+</div>
+<div align=center>
+<img src="asset.gif" alt="3D celeral artery model" width="640" height="450">
+</img>
+</div>
+<hr>
+<ul>
+<li>
+<p><u>Semi-supervised object detection</u></p>
+<p>(1) Proposed a novel semi-supervised object detection method based on temporal model ensembling, which used a large number of unlabelled data to improve the performance of an object detector.</p>
+<p>(2) This method employed the teacher-student framework originated from knowledge distillation. The prediction results of unlabelled data were obtained by integrating the detection results of teacher network from previous training steps, which were used to train the student network in an unsupervised manner.</p>
+</li>
+</ul>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/hugo-website/tags/general-purpose-computer-vision-methods/">General-Purpose Computer Vision Methods</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="http://localhost:1313/hugo-website/">Yuanhao Guo</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>
