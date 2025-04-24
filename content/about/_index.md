@@ -15,14 +15,14 @@ He has publised more than 20 scientific papers and has been issued more than 10 
 
 ### Affiliations
 
-1. Research Institute of Highway Ministry of Transport / RoadMaint Co. Ltd., Chief AI Scientist
-2. International School of Information Science and Engineering, Dalian University of Technology, Corporate-based Master's Supervisor
+1. Research Institute of Highway Ministry of Transport, Youth Chief Expert.
+2. RoadMaint Co. Ltd., Team Leader & Chief AI Scientist
+3. International School of Information Science and Engineering, Dalian University of Technology, Corporate-based Master's Supervisor
 
 ### Email
 
 1. yuanhaoguo@hotmail.com
 2. guo_yuanhao@126.com
-
 
 
 ### Education
@@ -44,6 +44,7 @@ $$
 
 $$
 \begin{aligned}
+\bullet ~~\textbf{\footnotesize{Apr. 2024 - Present:}} ~~~~& \text{\footnotesize{Research Institute of Highway Ministry of Transport, Youth Chief Expert}} \\\\\ 
 \bullet ~~\textbf{\footnotesize{Nov. 2022 - Present:}} ~~~~& \text{\footnotesize{Research Institute of Highway Ministry of Transport}} \\\\\ 
   & \text{\footnotesize{RoadMaint Co. Ltd., Chief AI Scientist, Senior Engineer}} \\\\\
 \bullet ~~\textbf{\footnotesize{Jun. 2019 - Oct. 2022:}} ~~& \text{\footnotesize{Institute of Automation, Chinese Academy of Sciences, Assistant Professor}} \\\\\\

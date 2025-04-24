@@ -6,6 +6,8 @@ description: "Preprints and articles by Dr. Yuanhao Guo."
 ### Selected Papers & Book Chapters
 <div style="text-align: justify;">
 <ul type="disc">
+<li> Guo Y, Huo Y, Pan Z, Cheng N, Cao J, Sun H, Wu J. “Deep Line Segment Detection for Concrete Pavement Distress Assessment”. Computer-Aided Civil and Infrastructure Engineering. 2025. </li>
+<li> Tang X, Tan B, Guo Y, Yu X, Kendrick J, Reynolds M. “Tomo-NeRL: tomographic neural representation learning for implicit CT image reconstruction”. IEEE International Conference on Bioinformatics and Biomedicine. pp. 2481-2488, 2025.</li>
 <li> Huang J, Luo Y, Guo Y, Li W, Yang G, etc. (co-first author). “Accurate segmentation of intracellular organelle networks using low-level features and topological self-similarity”. Bioinformatics. 2024 Oct;40(10):btae559.</li>
 <li> Ma Y, Ji Z, Yang W, Li L, Han L, Liu Y, Guo Y, Dmytriw AA, He C, Li G, Zhang H. “Role of optical coherence tomography in pipeline embolization device for the treatment of vertebral–basilar artery dissecting aneurysms”. Journal of NeuroInterventional Surgery. 2024 Mar 1;16(3):308-12.</li>
 <li> Sun S, Liu D, Zhou Y, Yang G, Cui LB, Xu X, Guo Y, Sun T, Jiang J, Li N, Wang Y. “Longitudinal real world correlation study of blood pressure and novel features of cerebral magnetic resonance angiography by artificial intelligence analysis on elderly cognitive impairment”. Frontiers in Aging Neuroscience. 2023 Feb 3;15:1121152.</li>
