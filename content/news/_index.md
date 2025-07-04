@@ -2,6 +2,13 @@
 title: News"
 ---
 
++ In July 2025, I was invited to present our latest research results on "Spatio-temporal Big Data-Driven Intelligent Pavement Distress Perception System" at the 17th International Exhibition on Transport Technology & Equipment, Beijing. Snapshots of the events can be seen from [link](https://m.alltuu.com/album/2122427104/?menu=live).
+
+<div align=center>
+<img src="交通展-宣介会.jpeg" alt="presentation" width="450" height="300">
+</div>
+
+---
 + In Apr. 2025, I was promoted as the "Youth Chief Expert" of Research Institute of Highway Ministry of Transport.
   
 ---
