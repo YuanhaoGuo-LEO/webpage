@@ -1,7 +1,13 @@
 ---
 title: News"
 ---
++ In June 2025, our research "Spatiotemporal Big Data-Driven Integrated Highway Asset Management Technology and Application" winned the IRF 2025 Award – Assets Management and Maintenance.
 
+<div align=center>
+<img src="IFI.png" alt="presentation" width="450" height="300">
+</div>
+
+---
 + In July 2025, I was invited to present our latest research results on "Spatio-temporal Big Data-Driven Intelligent Pavement Distress Perception System" at the 17th International Exhibition on Transport Technology & Equipment, Beijing. Snapshots of the events can be seen from [link](https://m.alltuu.com/album/2122427104/?menu=live).
 
 <div align=center>
