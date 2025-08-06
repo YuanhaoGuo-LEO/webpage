@@ -2,11 +2,7 @@
 title: News"
 
 ---
-+ Our previous work "The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching" has been accepted by the journal "Science Advances". 
-
-This work used deep learning-based image analyses (particle tracking, spatial distribution, ER morphology) to uncover mechanisms underlying the stop-and-go motion of endolysosomes (endosomes + lysosomes) in the cytoplasm. We have found that (1) ER junctions as regulatory hubs: They facilitate switching between motion states (fast, local slow, pausing) and serve as platforms for endolysosome interactions. Pauses primarily occur at ER junctions, where transient endosome-lysosome interactions often coincide with organelle fission, followed by departure. (2) Functional impact of ER junctions: Disrupting ER junctions impairs lysosomal motility and maturation. (3) Actin-mediated switching: Actin condensation around endolysosomes mediates motion switching, involving the VAP-STARD3 interaction and the actin regulator YWHAH. (4) Broad relevance: Other organelles (lipid droplets, peroxisomes) also pause near ER junctions.
-
-The study establishes ER junctions as central to coordinating organelle dynamics and spatial distribution in the cytoplasm.
++ Our previous work "The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching" has been accepted by the journal "Science Advances". The study establishes ER junctions as central to coordinating organelle dynamics and spatial distribution in the cytoplasm.
 
 ---
 + In June 2025, our research "Spatiotemporal Big Data-Driven Integrated Highway Asset Management Technology and Application" winned the IRF 2025 Award – Assets Management and Maintenance.
