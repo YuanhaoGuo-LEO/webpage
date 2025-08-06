@@ -6,6 +6,7 @@ description: "Preprints and articles by Dr. Yuanhao Guo."
 ### Selected Papers & Book Chapters
 <div style="text-align: justify;">
 <ul type="disc">
+<li> Li W, Guo Y, Wang Q, Qiu M, Zhang Y, Yang Y, Hu J, Yang G. “The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching”. Science Advances, 2025.</li>
 <li> Guo Y, Huo Y, Pan Z, Cheng N, Cao J, Sun H, Wu J. “Deep Line Segment Detection for Concrete Pavement Distress Assessment”. Computer-Aided Civil and Infrastructure Engineering. 2025. </li>
 <li> Tang X, Tan B, Guo Y, Yu X, Kendrick J, Reynolds M. “Tomo-NeRL: tomographic neural representation learning for implicit CT image reconstruction”. IEEE International Conference on Bioinformatics and Biomedicine. pp. 2481-2488, 2025.</li>
 <li> Huang J, Luo Y, Guo Y, Li W, Yang G, etc. (co-first author). “Accurate segmentation of intracellular organelle networks using low-level features and topological self-similarity”. Bioinformatics. 2024 Oct;40(10):btae559.</li>
