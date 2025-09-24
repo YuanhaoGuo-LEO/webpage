@@ -2,7 +2,11 @@
 title: News"
 
 ---
-+ Our previous work "The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching" has been accepted by the journal "Science Advances". The study establishes ER junctions as central to coordinating organelle dynamics and spatial distribution in the cytoplasm.
++ Our recent work "The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching" has been accepted by the journal "Science Advances". The study establishes ER junctions as central to coordinating organelle dynamics and spatial distribution in the cytoplasm.
+<div align=center>
+<img src="SCIENCE ADVANCES.png" alt="paper" width="500" height="300">
+</div>
+
 
 ---
 + In June 2025, our research "Spatiotemporal Big Data-Driven Integrated Highway Asset Management Technology and Application" winned the IRF 2025 Award – Assets Management and Maintenance.

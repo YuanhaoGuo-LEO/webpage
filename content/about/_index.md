@@ -6,18 +6,20 @@ title: "About Me"
 
 ### About Me
 <div style="text-align: justify;">
-Dr. Yuanhao Guo obtained his Ph.D. in <a href="https://liacs.leidenuniv.nl/">Computer Science at Leiden University</a>, the Netherlands, 2017. His research interests are in developing novel deep learning and computer vision models for solving interdisciplinary problems. He has made some important progresses in the field of biomedical image processing, intelligent road maintenance, and autonomous driving. His academic and industrial backgrounds promote himself to be an applied scientist.
+Dr. Yuanhao Guo obtained his Ph.D. in <a href="https://liacs.leidenuniv.nl/">Computer Science at Leiden University</a>, the Netherlands, 2017. His research interests are in developing novel deep learning and computer vision models for solving interdisciplinary problems. He has made some important progresses in the field of computational biology, biomedical image processing, intelligent road maintenance, and autonomous driving. His academic and industrial backgrounds promote himself to be an applied scientist.
 </div>
 <br>
 <div style="text-align: justify;">
-He has publised more than 20 scientific papers and has been issued more than 10 patents. He is leading 1 National Natural Science Foundation of China (NSFC) funding and acting as primary technical leader in 2 NSFC fundings. He serves as reviewer for a couple of SCI journals including IEEE Transactions on Multimedia, IEEE Transactions on Medical Imaging, International Journal of Multimedia Information retrieval, Neurocomputing, and Expert Systems with Applications.
+He has publised more than 30 scientific papers and has been issued more than 10 patents. He is leading 1 National Natural Science Foundation of China (NSFC) funding and acting as primary technical leader in 2 NSFC fundings. He serves as reviewer for a couple of SCI journals including IEEE Transactions on Multimedia, IEEE Transactions on Medical Imaging, International Journal of Multimedia Information retrieval, Neurocomputing, and Expert Systems with Applications.
 </div>
 
 ### Affiliations
 
 1. Research Institute of Highway Ministry of Transport, Youth Chief Expert.
 2. RoadMaint Co. Ltd., Team Leader & Chief AI Scientist
-3. International School of Information Science and Engineering, Dalian University of Technology, Corporate-based Master's Supervisor
+3. Dalian University of Technology, International School of Information Science and Engineering, Master's Supervisor
+4. Tianjin University of Technology, School of Computer Science and Engineering, Master's Supervisor
+5. Beijing Jiaotong University, School of Software Engineering, Master's Supervisor
 
 ### Email
 
