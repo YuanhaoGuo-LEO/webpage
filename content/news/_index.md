@@ -2,7 +2,7 @@
 title: News"
 
 ---
-+ Our recent work "The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching" has been accepted by the journal "Science Advances". The study establishes ER junctions as central to coordinating organelle dynamics and spatial distribution in the cytoplasm.
++ Our recent work "The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching" has been published by the journal "Science Advances". The study establishes ER junctions as central to coordinating organelle dynamics and spatial distribution in the cytoplasm, which provides a powerful system including a biological model and a data analysis tool for drug screening.
 <div align=center>
 <img src="SCIENCE ADVANCES.png" alt="paper" width="500" height="300">
 </div>
