@@ -7,10 +7,6 @@ title: News"
 <img src="SCIENCE ADVANCES.png" alt="paper" width="640" height="400">
 </div>
 
-
----
-+ In June 2025, our research "Spatiotemporal Big Data-Driven Integrated Highway Asset Management Technology and Application" winned the IRF 2025 Award – Assets Management and Maintenance.
-
 ---
 + In June 2025, our research "Spatiotemporal Big Data-Driven Integrated Highway Asset Management Technology and Application" winned the IRF 2025 Award – Assets Management and Maintenance.
 
@@ -57,7 +53,7 @@ title: News"
 
 + In Oct. 2023, we reported our work on "AI-based Pavement Distress Detection System" at International Technical Conference of National Transport Research Organisation (NTRO) at Melbourne, AUS.
 <div align=center>
-<img src="ntro.jpeg" alt="3D celeral artery model" width="640" height="450">
+<img src="ntro.jpeg" alt="3D celeral artery model" width="640" height="500">
 </img>
 </div>
 
