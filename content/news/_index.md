@@ -4,7 +4,7 @@ title: News"
 ---
 + Our recent work "The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching" has been published by the journal "Science Advances". The study establishes ER junctions as central to coordinating organelle dynamics and spatial distribution in the cytoplasm, which provides a powerful system including a biological model and a data analysis tool for drug screening.
 <div align=center>
-<img src="SCIENCE ADVANCES.png" alt="paper" width="500" height="300">
+<img src="SCIENCE ADVANCES.png" alt="paper" width="640" height="400">
 </div>
 
 
@@ -15,14 +15,14 @@ title: News"
 + In June 2025, our research "Spatiotemporal Big Data-Driven Integrated Highway Asset Management Technology and Application" winned the IRF 2025 Award – Assets Management and Maintenance.
 
 <div align=center>
-<img src="IFI.png" alt="presentation" width="450" height="300">
+<img src="IFI.png" alt="presentation" width="640" height="450">
 </div>
 
 ---
 + In July 2025, I was invited to present our latest research results on "Spatio-temporal Big Data-Driven Intelligent Pavement Distress Perception System" at the 17th International Exhibition on Transport Technology & Equipment, Beijing. Snapshots of the events can be seen from [link](https://m.alltuu.com/album/2122427104/?menu=live).
 
 <div align=center>
-<img src="交通展-宣介会.jpeg" alt="presentation" width="450" height="300">
+<img src="交通展-宣介会.jpeg" alt="presentation" width="640" height="430">
 </div>
 
 ---
@@ -33,7 +33,7 @@ title: News"
 
 + On 26$^{th}$ Mar. 2025, our paper "Deep line segment detection for concrete pavement distress assessment" was published in "Computer-Aided Civil and Infrastructure Engineering" [link](https://onlinelibrary.wiley.com/doi/10.1111/mice.13467?af=R).
 <div align=center>
-<img src="cacie_paper.png" alt="3D celeral artery model" width="450" height="200">
+<img src="cacie_paper.png" alt="3D celeral artery model" width="640" height="300">
 </div>
 
 ---
