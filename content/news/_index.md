@@ -2,6 +2,19 @@
 title: News"
 
 ---
++ On Oct. 9, 2025, I was invited to give a presentation on "AI4Science + AI4Industry: Applications of AI Methods for Interdisciplinary Studies" at the school of information science and engineering, Shandong Normal University.
+<div align=center>
+<img src="SNU_presentation.jpg" alt="paper" width="640" height="500">
+</div>
+
+---
++ On Sept. 18, 2025, I was invited to give a tutorial on "Applications of Machine Learning and Deep Learning Techniques in Pavement Condition Assessment" at the "Technical Workshop on Digital Transformation Enhancement for Highway Operations Based on Low-Altitude Inspection", organized by Transport Management Institute Ministry of Transport of P.R. China. I was also selected to join the "Experts Committee of Transport Management Institute Ministry of Transport of P.R. China".
+<div align=center>
+<img src="origin.jpg" alt="paper" width="640" height="350">
+</div>
+
+
+---
 + Our recent work "The endoplasmic reticulum junction serves as a platform for lysosome-endosome interaction through their 'stop-and-go' motion switching" has been published by the journal "Science Advances". The study establishes ER junctions as central to coordinating organelle dynamics and spatial distribution in the cytoplasm, which provides a powerful system including a biological model and a data analysis tool for drug screening.
 <div align=center>
 <img src="SCIENCE ADVANCES.png" alt="paper" width="640" height="400">
