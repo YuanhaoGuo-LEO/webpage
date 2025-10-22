@@ -2,13 +2,13 @@
 title: News"
 
 ---
-+ On Oct. 9, 2025, I was invited to give a presentation on "AI4Science + AI4Industry: Applications of AI Methods for Interdisciplinary Studies" at the school of information science and engineering, Shandong Normal University.
++ On Oct. 9, 2025, I was invited by Prof. Jiande Sun to give a presentation on "AI4Science + AI4Industry: Applications of AI Methods for Interdisciplinary Studies" at the school of information science and engineering, Shandong Normal University.
 <div align=center>
 <img src="SNU_presentation.jpg" alt="paper" width="640" height="500">
 </div>
 
 ---
-+ On Sept. 18, 2025, I was invited to give a tutorial on "Applications of Machine Learning and Deep Learning Techniques in Pavement Condition Assessment" at the "Technical Workshop on Digital Transformation Enhancement for Highway Operations Based on Low-Altitude Inspection", organized by Transport Management Institute Ministry of Transport of P.R. China. I was also selected to join the "Experts Committee of Transport Management Institute Ministry of Transport of P.R. China".
++ On September 18, 2025, I delivered a tutorial titled “Applications of Machine Learning and Deep Learning Techniques in Pavement Condition Assessment” at the Technical Workshop on Digital Transformation Enhancement for Highway Operations Based on Low-Altitude Inspection, organized by the Transport Management Institute, Ministry of Transport of the People’s Republic of China. On the same occasion, I was appointed as a member of the Experts Committee of the Transport Management Institute, Ministry of Transport of the People’s Republic of China. The reported news can be seen from [link](https://mp.weixin.qq.com/s/9ruXz0qp_i90DoEQQ2bE5Q).
 <div align=center>
 <img src="origin.jpg" alt="paper" width="640" height="350">
 </div>
