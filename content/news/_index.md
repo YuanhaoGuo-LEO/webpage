@@ -2,6 +2,15 @@
 title: News"
 
 ---
++ On October 12, 2025, I was honored to attend the Ph.D. thesis defense of Dr. JiaLi, invited by Professor Fons J. Verbeek of Leiden University.
+<div align=center>
+<img src="snapshot.jpg" alt="paper" width="640" height="400">
+</div>
+<div align=center>
+<img src="thesis.jpg" alt="paper" width="250" height="400">
+</div>
+
+---
 + On Oct. 9, 2025, I was invited by Prof. Jiande Sun to give a presentation on "AI4Science + AI4Industry: Applications of AI Methods for Interdisciplinary Studies" at the school of information science and engineering, Shandong Normal University.
 <div align=center>
 <img src="SNU_presentation.jpg" alt="paper" width="640" height="500">
