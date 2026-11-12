@@ -16,6 +16,9 @@ description: "Issued patents by Dr. Yuanhao Guo."
 <li> “一种图像分割方法、装置、设备及介质(A novel segmentation method for cerebral artery from OCT images)”，2023.6，专利号：ZL 2023 1 0624615.0</li>
 <li> “基于医学图像的支架贴壁性度量方法、装置、设备及介质(An automated method for quantifying stent apposition)”，2023.6，专利号：ZL 2023 1 0624607.6</li>
 <li> “一种水泥路面病害识别方法(A concrete pavement distress detection method)”，2023.9，专利号：ZL 2023 1 1159574.9 </li>
-
+<li> “路面病害识别方法、装置、设备、存储介质及程序产品(Pavement distress recognition method, device, equipment, storage medium and program product)”, 2024.10, 专利号：ZL 2024 1 1420867.2</li>
+<li> “路面检测方法、装置、电子设备及存储介质(Pavement inspection method, device, electronic equipment and storage medium)”，2024.10，专利号：ZL 2024 1 1420868.5.</li>，专利号：ZL2024 1 1430219.5</li>
+<li> “提高路面平整度识别准确性的方法、装置、介质及存储程序产品(Improving the accuracy of pavement roughness recognition method, device, medium and storage program product)”，2026.4，专利号：ZL2025 1 1265717.3</li>
+<li> “路面病害识别方法、装置、设备、存储介质及程序产品(Pavement distress recognition method, device, equipment, storage medium and program product)”，2026.8，专利号：ZL 2025 1 1682892.2</li>
 <ul>
 </div>

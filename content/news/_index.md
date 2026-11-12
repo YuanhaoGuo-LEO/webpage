@@ -2,6 +2,25 @@
 title: News"
 
 ---
++ From October 19 to 20, 2025, I led my team to compete in the finals of the "2nd Innovation and Application Contest of Comprehensive Transportation Large Model Agents" held in Mianyang. Finally, our project, the "Wendao" Highway Maintenance Large Model Agent System, emerged victorious, securing the championship and winning the Grand Prize of the event.
+The competition attracted a total of 1,275 entries, with 300 projects advancing to the finals. Ultimately, the event awarded 10 Grand Prizes, 35 First Prizes, and 53 Second Prizes. As a flagship competition hosted by the Ministry of Transport, winning this highest honor fully demonstrates our team's robust R&D capabilities and our leading position within the industry of road maitainance technology.
+Official introduction of our project can be seen from [link](https://mp.weixin.qq.com/s/2t96yxdnd0ih4Yd2FbicDw). And the official report can be seen from [link](https://mp.weixin.qq.com/s/9ruXz0qp_i90DoEQQ2bE5Q).
+
+<div align=center>
+<img src="reward-2026.jpg" alt="paper" width="640" height="400">
+</div>
+
+---
++ On October 8, 2026, I was granted an exclusive interview by China Transport News. As a core young scientific researcher and a representative of emerging leading experts at the Research Institute of Highway, Ministry of Transport, through this report, I shared my research and development insights on "AI-driven Highway Maintenance" with colleagues across the industry.
+Full version of the report can be seen from [link](https://mp.weixin.qq.com/s/sGfmB6dHFUfFX5b0AV_9RQ).
+
+<div align=center>
+<img src="report-news.jpg" alt="paper" width="640" height="400">
+</div>
+
+
+
+---
 + On October 12, 2025, I was honored to attend the Ph.D. thesis defense of Dr. JiaLi, invited by Professor Fons J. Verbeek of Leiden University.
 <div align=center>
 <img src="snapshot.jpg" alt="paper" width="640" height="400">
