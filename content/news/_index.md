@@ -9,7 +9,7 @@ The competition attracted a total of 1,275 entries, with 300 projects advancing 
 Official introduction of our project can be seen from [link](https://mp.weixin.qq.com/s/2t96yxdnd0ih4Yd2FbicDw). And the official report can be seen from [link](https://mp.weixin.qq.com/s/9ruXz0qp_i90DoEQQ2bE5Q).
 
 <div align=center>
-<img src="reward-2026.png" alt="paper" width="640" height="400">
+<img src="reward-2026.png" alt="paper" width="640" height="429">
 </div>
 
 ---
@@ -18,7 +18,7 @@ Official introduction of our project can be seen from [link](https://mp.weixin.q
 Full version of the report can be seen from [link](https://mp.weixin.qq.com/s/sGfmB6dHFUfFX5b0AV_9RQ).
 
 <div align=center>
-<img src="report-news.png" alt="paper" width="640" height="400">
+<img src="report-news.png" alt="paper" width="640" height="808">
 </div>
 
 
